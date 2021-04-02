@@ -1,0 +1,322 @@
+* {
+    margin: 0;
+    padding: 0;
+    word-break: break-all;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    font-family: PingFangSC-Regular, MicrosoftYaHei;
+  }
+  
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+  }
+  ul,
+  li {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  .input-type-file {
+    display: none !important;
+  }
+  
+  input,
+  textarea {
+    border: none;
+    outline: none;
+    resize: none !important;
+    border: 0;
+    -webkit-appearance:text;
+    -moz-user-select: text;
+    -o-user-select: text;
+    -khtml-user-select: text;
+    -webkit-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+  }
+  
+  .cursor {
+    cursor: pointer;
+  }
+  /******* margin *******/
+  .margin-all-4 {
+    margin: $margin-4;
+  }
+  .margin-all-12 {
+    margin: $margin-12;
+  }
+  .margin-all-16 {
+    margin: $margin-16;
+  }
+  .margin-all-24 {
+    margin: $margin-24;
+  }
+  .margin-top-4 {
+    margin-top: $margin-4;
+  }
+  .margin-bottom-4 {
+    margin-bottom: $margin-4;
+  }
+  .margin-left-4 {
+    margin-left: $margin-4;
+  }
+  .margin-right-4 {
+    margin-right: $margin-4;
+  }
+  .margin-top-12 {
+    margin-top: $margin-12;
+  }
+  .margin-bottom-12 {
+    margin-bottom: $margin-12;
+  }
+  .margin-left-12 {
+    margin-left: $margin-12;
+  }
+  .margin-right-12 {
+    margin-right: $margin-12;
+  }
+  .margin-top-16 {
+    margin-top: $margin-16;
+  }
+  .margin-bottom-16 {
+    margin-bottom: $margin-16;
+  }
+  .margin-left-16 {
+    margin-left: $margin-16;
+  }
+  .margin-right-16 {
+    margin-right: $margin-16;
+  }
+  .margin-top-24 {
+    margin-top: $margin-24;
+  }
+  .margin-bottom-24 {
+    margin-bottom: $margin-24;
+  }
+  .margin-left-24 {
+    margin-left: $margin-24;
+  }
+  .margin-right-24 {
+    margin-right: $margin-24;
+  }
+  /******* padding *******/
+  .padding-all-4 {
+    padding: $margin-4;
+  }
+  .padding-all-12 {
+    padding: $margin-12;
+  }
+  .padding-all-16 {
+    padding: $margin-16;
+  }
+  .padding-all-24 {
+    padding: $margin-24;
+  }
+  .padding-top-4 {
+    padding-top: $margin-4;
+  }
+  .padding-bottom-4 {
+    padding-bottom: $margin-4;
+  }
+  .padding-left-4 {
+    padding-left: $margin-4;
+  }
+  .padding-right-4 {
+    padding-right: $margin-4;
+  }
+  .padding-top-12 {
+    padding-top: $margin-12;
+  }
+  .padding-bottom-12 {
+    padding-bottom: $margin-12;
+  }
+  .padding-left-12 {
+    padding-left: $margin-12;
+  }
+  .padding-right-12 {
+    padding-right: $margin-12;
+  }
+  .padding-top-16 {
+    padding-top: $margin-16;
+  }
+  .padding-bottom-16 {
+    padding-bottom: $margin-16;
+  }
+  .padding-left-16 {
+    padding-left: $margin-16;
+  }
+  .padding-right-16 {
+    padding-right: $margin-16;
+  }
+  .padding-top-24 {
+    padding-top: $margin-24;
+  }
+  .padding-bottom-24 {
+    padding-bottom: $margin-24;
+  }
+  .padding-left-24 {
+    padding-left: $margin-24;
+  }
+  .padding-right-24 {
+    padding-right: $margin-24;
+  }
+  /******* font *******/
+  .font-12 {
+    font-size: $font-12;
+  }
+  .font-14 {
+    font-size: $font-14;
+  }
+  .font-16 {
+    font-size: $font-16;
+  }
+  .font-18 {
+    font-size: $font-18;
+  }
+  .font-20 {
+    font-size: $font-20;
+  }
+  .font-22 {
+    font-size: $font-22;
+  }
+  .font-24 {
+    font-size: $font-24;
+  }
+  .font-weight {
+    font-weight: bold;
+  }
+  /******* color *******/
+  .color-primary {
+    color: $color-primary;
+    &--hover {
+      &:hover {
+        color: $color-primary;
+        cursor: pointer;
+      }
+    }
+  }
+  .color-grey {
+    color: $color-grey;
+  }
+  .color-blue {
+    color: $color-blue;
+  }
+  .color-red {
+    color: $color-red;
+  }
+  .color-orange {
+    color: $color-orange;
+  }
+  .color-green {
+    color: $color-green;
+  }
+  .color-black-3 {
+    color: $color-black-3;
+  }
+  .color-black-6 {
+    color: $color-black-6;
+  }
+  .color-black-9 {
+    color: $color-black-9;
+  }
+  .color-white {
+    color: $color-white;
+  }
+  /******* background *******/
+  .bg-gray {
+    background: $color-gray;
+  }
+  
+  .bg-grey {
+    background: $color-grey;
+  }
+  .bg-white {
+    background: $color-white;
+  }
+  /******* line *******/
+  .line-grey {
+    background: $color-grey;
+    height: 1px;
+    &-16 {
+      @extend .line-grey;
+      height: $margin-16;
+    }
+  }
+  .line-height-30 {
+    line-height: 30px;
+  }
+  .width-per-100 {
+    width: 100%;
+  }
+  .width-0 {
+    width: 0;
+  }
+  .height-per-100 {
+    height: 100%;
+  }
+  .height-vh-100 {
+    height: 100vh;
+  }
+  .min-height-per-100 {
+    min-height: 100%;
+  }
+  .min-height-vh-100 {
+    min-height: 100vh;
+  }
+  .overflow {
+    &--hidden {
+      overflow: hidden;
+    }
+    &--hidden--nowrap {
+      @include ellipsis(1)
+    }
+    &--auto {
+      overflow: auto;
+    }
+    &--auto--hide-scrollbar {
+      overflow: auto;
+      &::-webkit-scrollbar {
+        display: none;
+      }
+    }
+    &--visible {
+      overflow: visible;
+    }
+  }
+  .form-help {
+    font-size: $font-12;
+    &--warn {
+      color: $color-orange;
+    }
+    &--error {
+      color: $color-red;
+    }
+  }
+  .input-width {
+    width: 300px;
+  }
+  .select-width {
+    width: 300px;
+  }
+  .text-align-center {
+    text-align: center;
+  }
+  
+  .border-radius-4 {
+    border-radius: $margin-4;
+  }
+  
+  .upload-img {
+    @include imgBox(80px, 80px, cover);
+  }
+  .vertical-align-middle {
+    vertical-align: middle;
+  }
+  .content-height {
+    height: calc(100vh - #{$header-height});
+  }

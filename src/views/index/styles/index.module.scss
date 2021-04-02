@@ -1,0 +1,10 @@
+.index__Layout__outer {
+  height: 100vh;
+}
+.index__Layout__inner {
+  height: calc(100% - #{$header-height});
+}
+.index__Layout__content {
+  height: 100%;
+  overflow: auto;
+}

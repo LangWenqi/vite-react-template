@@ -1,0 +1,3 @@
+.cat-img {
+  @include imgBox(50px, 50px, contain);
+}
